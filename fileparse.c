@@ -44,9 +44,16 @@
  * (n is the number of the ip address in all of the files)
  *
  * How to run this program:
+ *
+ * For OSX:
  * 1. Under hw1 directory, enter: gcc fileparse.c strmap.c -o fileparse
  * 2. Then enter: ./fileparse access_logs/ 5
  * 
+ * For Ubuntu:
+ * 1. Under h1 directory, enter: gcc fileparse.c strmap.c -lpthread -ofileparse
+ * 2. Then enter: chmod +x ./fileparse
+ * 3. Then enter: ./fileparse access_logs/ 5
+ *
  * Reference links:
  * 
  * 1. https://computing.llnl.gov/tutorials/pthreads/
